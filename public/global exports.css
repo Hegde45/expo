@@ -1,0 +1,36 @@
+body {
+    width: 100%;
+    overflow: hidden;
+    background-color: black;
+    font-family: "proxima-nova-condensed", "Helvetica", arial, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: red;
+}
+
+#header {
+    height: 7vh;
+    padding: 1.5% 3%;
+    color: red;
+}
+
+a {
+    /* transition: color 0.29s, font-size 0.29s !important; */
+    color: red;
+    font-size: 15px;
+    margin: 13px !important;
+    cursor: pointer !important;
+}
+
+a:hover {
+    color: white !important;
+    font-size: calc(15*1.4529) !important;
+}
+
+a.active {
+    color: white !important;
+    text-decoration: line-through orange !important;
+    color: white !important;
+    font-size: calc(15*1.4529) !important;
+}
